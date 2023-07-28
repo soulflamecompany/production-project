@@ -7,6 +7,6 @@ export function buildLoaders(): webpack.RuleSetRule[] {
         use: 'ts-loader',
         exclude: /node_modules/,}
     return [
-        typescriptLoader
+        typescriptLoader,
     ]
 }
