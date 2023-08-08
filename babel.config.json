@@ -1,0 +1,7 @@
+{
+    "presets": ["@babel/preset-env"]
+    //Плагин для автоматического создания переводов
+    // "plugins": [
+    //     "i18next-extract"
+    // ]
+}
