@@ -1,8 +1,29 @@
 {
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-        },
-        
-    "typescript.tsdk": "node_modules\\typescript\\lib",
-    
+ 
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "stylelint.enable": true,
+  "css.validate": true,
+  "scss.validate": true,
+  "stylelint.validate": ["css", "scss"],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "eslint.enable": true,
+  "eslint.options": { "overrideConfigFile": "./.eslintrc.js" },
+  "eslint.nodePath": "./node_modules",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.codeActionsOnSave.rules": null,
+    "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
