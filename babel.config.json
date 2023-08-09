@@ -1,5 +1,5 @@
 {
-  "presets": ["@babel/preset-env"]
+  "presets": ["@babel/preset-env", "@babel/preset-typescript"]
   //Плагин для автоматического создания переводов
   // "plugins": [
   //     "i18next-extract"

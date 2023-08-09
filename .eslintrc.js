@@ -2,8 +2,11 @@ module.exports = {
     env: {
         browser: true,
         es2021: true,
+        jest: true,
     },
-    extends: ['plugin:react/recommended', 'airbnb', 'plugin:i18next/recommended'],
+    extends: [
+        'plugin:react/recommended', 'airbnb', 'plugin:i18next/recommended',
+    ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
         ecmaFeatures: {
@@ -24,7 +27,9 @@ module.exports = {
         'import/no-unresolved': 'off',
         'import/prefer-default-export': 'off',
         'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+        '@typescript-eslint/no-unused-vars': [
+            'warn', { argsIgnorePattern: '^_' },
+        ],
         'react/require-default-props': 'off',
         'react/react-in-jsx-scope': 'off',
         'react/jsx-props-no-spreading': 'off',
@@ -33,7 +38,8 @@ module.exports = {
         'import/extensions': 'off',
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
-        'i18next/no-literal-string': ['error', { markupOnly: true }],
+        'i18next/no-literal-string': 'off',
+        'max-len': ['error', { ignoreComments: true }],
     },
     globals: {
         __IS_DEV__: true,
