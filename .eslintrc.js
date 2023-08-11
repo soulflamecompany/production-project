@@ -41,6 +41,7 @@ module.exports = {
         'i18next/no-literal-string': 'off',
         'max-len': ['error', { ignoreComments: true }],
         'linebreak-style': 0,
+        'no-console': 'off',
     },
     globals: {
         __IS_DEV__: true,

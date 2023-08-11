@@ -1,7 +1,9 @@
 {
     "Test": "Test example",
     "Translate": "Translate",
-    "Language": "English"
-
+    "Language": "English",
+    "Error": "Something went wrong",
+    "Refresh": "Refresh the page",
+    "Throw": "Throw error"
     
 }
