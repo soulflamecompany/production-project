@@ -5,7 +5,9 @@ module.exports = {
         jest: true,
     },
     extends: [
-        'plugin:react/recommended', 'airbnb', 'plugin:i18next/recommended',
+        'plugin:react/recommended',
+        'airbnb',
+        'plugin:i18next/recommended',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -22,13 +24,18 @@ module.exports = {
         indent: [2, 4],
         'react/jsx-filename-extension': [
             2,
-            { extensions: ['.js', '.jsx', '.tsx'] },
+            {
+                extensions: ['.js', '.jsx', '.tsx'],
+            },
         ],
         'import/no-unresolved': 'off',
         'import/prefer-default-export': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': [
-            'warn', { argsIgnorePattern: '^_' },
+            'warn',
+            {
+                argsIgnorePattern: '^_',
+            },
         ],
         'react/require-default-props': 'off',
         'react/react-in-jsx-scope': 'off',
@@ -39,17 +46,26 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'i18next/no-literal-string': 'off',
-        // ['error', { markupOnly: true, ignoreAttribute: ['data-testid'] }],
-        'max-len': ['error', { ignoreComments: true, code: 120 }],
+        // ['error', { markupOnly: true, ignoreAttribute: ['data-testid','to'] }],
+        'max-len': [
+            'error',
+            {
+                ignoreComments: true,
+                code: 120,
+            },
+        ],
         'linebreak-style': 0,
         'no-console': 'off',
+        'implicit-arrow-linebreak': 'off',
+        'object-curly-newline': 'off',
+        'operator-linebreak': 'off',
     },
     globals: {
         __IS_DEV__: true,
     },
     overrides: [
         {
-            files: ['**/src/**/*.test.{ts,tsx'],
+            files: ['**/src/**/*.test.{ts,tsx}'],
             rules: {
                 'i18next/no-literal-string': 'off',
             },
