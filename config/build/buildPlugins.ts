@@ -23,11 +23,9 @@ export function buildPlugins({
     ];
 
     if (isDev) {
-        plugins.push(
-            // В старых версиях надо было подключать вручную,сейчас же из коробки
-            // new webpack.HotModuleReplacementPlugin(),
-            new BundleAnalyzerPlugin({ openAnalyzer: false }),
-        );
+        plugins.push(new BundleAnalyzerPlugin({ openAnalyzer: false }));
+        // В старых версиях надо было подключать вручную,сейчас же из коробки
+        // plugins.push(new webpack.HotModuleReplacementPlugin());
     }
 
     return plugins;
