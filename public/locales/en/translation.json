@@ -1,9 +1,14 @@
 {
     "Test": "Test example",
     "Translate": "Translate",
+
     "Language": "English",
+    "Short Language": "En",
+
+    "Main": "Main",
+    "About": "About us",
+
     "Error": "Something went wrong",
     "Refresh": "Refresh the page",
     "Throw": "Throw error"
-    
 }
