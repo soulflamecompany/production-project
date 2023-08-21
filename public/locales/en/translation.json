@@ -10,5 +10,7 @@
 
     "Error": "Something went wrong",
     "Refresh": "Refresh the page",
-    "Throw": "Throw error"
+    "Throw": "Throw error",
+
+    "Enter": "Enter"
 }
