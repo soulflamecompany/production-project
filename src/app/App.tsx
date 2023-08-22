@@ -7,11 +7,10 @@ import { Sidebar } from 'widgets/Sidebar';
 import { AppRouter } from './providers/router';
 
 const App = () => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { theme } = useTheme();
 
     return (
-        <div className={classNames('app', {}, [])}>
+        <div className={classNames('app', {}, [theme])}>
             <Suspense fallback="">
                 <Navbar />
                 <div className="content-page">

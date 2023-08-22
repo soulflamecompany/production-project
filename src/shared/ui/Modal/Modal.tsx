@@ -24,7 +24,7 @@ export const Modal = (props: ModalProps) => {
 
     const [isClosing, setIsClosing] = useState(false);
     const timerRef = useRef<ReturnType<typeof setTimeout>>();
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+
     const { theme } = useTheme();
 
     const closeHandler = useCallback(() => {
@@ -68,7 +68,13 @@ export const Modal = (props: ModalProps) => {
 
     return (
         <Portal>
-            <div className={classNames(cls.Modal, mods, [className])}>
+            <div
+                className={classNames(cls.Modal, mods, [
+                    className,
+                    theme,
+                    'app_modal',
+                ])}
+            >
                 <div className={cls.overlay} onClick={closeHandler}>
                     <div className={cls.content} onClick={onContentClick}>
                         {children}
