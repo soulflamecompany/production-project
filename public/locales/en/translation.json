@@ -12,5 +12,10 @@
     "Refresh": "Refresh the page",
     "Throw": "Throw error",
 
-    "Enter": "Enter"
+    "Enter": "Enter",
+
+    "Increment": "increment",
+    "Decrement": "decrement"
+
+    
 }
