@@ -24,6 +24,7 @@ export const Modal = (props: ModalProps) => {
 
     const [isClosing, setIsClosing] = useState(false);
     const timerRef = useRef<ReturnType<typeof setTimeout>>();
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { theme } = useTheme();
 
     const closeHandler = useCallback(() => {
@@ -63,7 +64,6 @@ export const Modal = (props: ModalProps) => {
     const mods: Record<string, boolean> = {
         [cls.opened]: isOpen,
         [cls.isClosing]: isClosing,
-        [cls[theme]]: true,
     };
 
     return (
