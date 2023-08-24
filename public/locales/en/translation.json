@@ -15,7 +15,8 @@
     "Enter": "Enter",
 
     "Increment": "increment",
-    "Decrement": "decrement"
+    "Decrement": "decrement",
 
-    
+    "Enter username": "Enter username",
+    "Enter password": "Enter password"
 }
