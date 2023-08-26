@@ -13,10 +13,15 @@
     "Throw": "Throw error",
 
     "Enter": "Enter",
+    "Exit": "Exit",
 
     "Increment": "increment",
     "Decrement": "decrement",
 
     "Enter username": "Enter username",
-    "Enter password": "Enter password"
+    "Enter password": "Enter password",
+
+    "Auth form": "Authorization form",
+
+    "Wrong log/pass": "Uncorrect username or password"
 }

@@ -13,10 +13,15 @@
     "Throw": "Выбросить ошибку",
 
     "Enter": "Войти",
+    "Exit": "Выйти",
 
     "Increment": "инкремент",
     "Decrement": "декремент",
 
     "Enter username": "Введите username",
-    "Enter password": "Введите пароль"
+    "Enter password": "Введите пароль",
+
+    "Auth form": "Форма авторизации",
+
+    "Wrong log/pass": "Вы ввели неверный логин или пароль"
 }
