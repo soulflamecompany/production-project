@@ -65,6 +65,7 @@ module.exports = {
         'jsx-a11y/click-events-have-key-events': 'off',
         'no-param-reassign': 'off',
         'react/jsx-one-expression-per-line': 'off',
+        'no-undef': 'off',
     },
     globals: {
         __IS_DEV__: true,

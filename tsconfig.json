@@ -9,6 +9,7 @@
         "jsx": "react-jsx",
         // Компилятор будет обрабатывать не только TS файлы, но и JS файлы
         "allowJs": true,
+        "strict": true,
         "moduleResolution": "node",
         // "typeRoots": ["./node_modules/@types"],
         //Для абсолютного импорта
