@@ -2,7 +2,7 @@
     "Profile": "Profile",
 
     "Edit": "Edit",
-    "Cansel": "Cansel",
+    "Cancel": "Cancel",
     "Save": "Save",
 
     "Name": "Your name",
@@ -13,6 +13,12 @@
     "Avatar": "Enter link to avatar",
     "SelectCurrency": "Specify the currency",
     "SelectCountry": "Indicate the country",
+
+    "ServErr": "Server error on save",
+    "IncCountry": "Invalid region",
+    "NoData": "Data no specified",
+    "IncUserData": "First and last name are required",
+    "IncAge": "Incorrect age",
 
     "ProfileErrorLoadingTitle": "An error occurred while loading the profile",
     "ProfileErrorLoadingText": "Try refreshing the page"

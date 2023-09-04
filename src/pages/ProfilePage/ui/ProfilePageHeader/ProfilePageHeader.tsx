@@ -26,7 +26,7 @@ export const ProfilePageHeader = ({ className }: ProfilePageHeaderProps) => {
     }, [dispatch]);
 
     const onCancelEdit = useCallback(() => {
-        dispatch(profileActions.canselEdit);
+        dispatch(profileActions.cancelEdit());
     }, [dispatch]);
 
     const onSave = useCallback(() => {
@@ -51,7 +51,7 @@ export const ProfilePageHeader = ({ className }: ProfilePageHeaderProps) => {
                         className={cls.editBtn}
                         onClick={onCancelEdit}
                     >
-                        {t('Cansel')}
+                        {t('Cancel')}
                     </Button>
 
                     <Button
