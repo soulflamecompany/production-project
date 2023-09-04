@@ -2,7 +2,18 @@
     "Profile": "Profile",
 
     "Edit": "Edit",
+    "Cansel": "Cansel",
+    "Save": "Save",
 
     "Name": "Your name",
-    "LastName": "Your last name"
+    "LastName": "Your last name",
+    "Age": "Your age",
+    "City": "City",
+    "Username": "Enter username",
+    "Avatar": "Enter link to avatar",
+    "SelectCurrency": "Specify the currency",
+    "SelectCountry": "Indicate the country",
+
+    "ProfileErrorLoadingTitle": "An error occurred while loading the profile",
+    "ProfileErrorLoadingText": "Try refreshing the page"
 }

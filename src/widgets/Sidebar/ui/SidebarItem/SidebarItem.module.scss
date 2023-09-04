@@ -20,3 +20,11 @@
         width: 0;
     }
 }
+
+.item:nth-of-type(3) {
+    margin-left: 3px;
+
+    .link {
+        margin-left: 7px;
+    }
+}
