@@ -4,7 +4,6 @@ import { Country } from 'entities/Country';
 import { Currency } from 'entities/Currency';
 import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
-import avatar from 'shared/assets/tests/avatar-storybook.jpg';
 import ProfilePage from './ProfilePage';
 
 export default {
@@ -30,7 +29,7 @@ Normal.decorators = [
                 first: 'storybook',
                 city: 'majorka',
                 currency: Currency.USD,
-                avatar,
+                avatar: 'https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg',
             },
         },
     }),
@@ -50,7 +49,7 @@ Dark.decorators = [
                 first: 'storybook',
                 city: 'majorka',
                 currency: Currency.USD,
-                avatar,
+                avatar: 'https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg',
             },
         },
     }),
