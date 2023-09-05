@@ -2,7 +2,6 @@ import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { Country } from 'entities/Country';
 import { Currency } from 'entities/Currency';
 import { ProfileCard } from 'entities/Profile';
-import avatar from 'shared/assets/tests/avatar-storybook.jpg';
 
 export default {
     title: 'entities/ProfileCard',
@@ -26,7 +25,7 @@ Primary.args = {
         first: 'storybook',
         city: 'majorka',
         currency: Currency.USD,
-        avatar,
+        avatar: 'https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg',
     },
 };
 
