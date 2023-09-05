@@ -54,7 +54,13 @@ export default ({ config }: { config: webpack.Configuration }) => {
         }),
     );
 
-    config.resolve?.modules?.unshift(paths.src);
+    // config.resolve?.modules?.unshift(paths.src);
+    if (config!.resolve!.modules) {
+        config!.resolve!.modules = [
+            path.resolve(__dirname, '../../src'),
+            'node_modules',
+        ];
+    }
 
     return config;
 };
